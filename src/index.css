@@ -1,0 +1,37 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+h1 {
+    font-size: 3.2em;
+    line-height: 1.1;
+}
+
+.ant-layout-sider-children > .ant-menu > .ant-menu-item {
+    border-radius: inherit;
+    width: 100%;
+    margin: 0;
+    margin-bottom: 15px;
+    font-size: 18px;
+    height: 60px;
+}
+
+.ant-layout-sider-children > .ant-menu > .ant-menu-item > .anticon {
+    font-size: 20px;
+}
+
+.ant-layout-header > .ant-btn > .ant-btn-icon > .anticon {
+    font-size: 25px;
+    padding-left: 20px;
+}
+.ant-layout-header > .ant-btn > .ant-btn-icon {
+    color: white;
+    transition: .3s;
+}
+.ant-layout-header > .ant-btn > .ant-btn-icon:hover {
+    transform: scale(1.1);
+}
+
+.ant-menu > .ant-menu-item-divider {
+    background-color: grey;
+}
