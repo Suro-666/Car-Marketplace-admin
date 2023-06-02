@@ -3,7 +3,7 @@ import { createJSONStorage, persist } from "zustand/middleware";
 
 export const useAdminStore = create(
   persist(
-    (set, get) => ({
+    (set) => ({
       adminData: null,
       setAdminData: (dataObject) => set({ adminData: dataObject }),
       logOut: () => set({ adminData: null }),

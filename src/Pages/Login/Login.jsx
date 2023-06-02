@@ -1,10 +1,9 @@
-import React, { useEffect } from "react";
 import { loginSchema } from "./LoginSchema";
 import { ErrorMessage, Field, Form, Formik } from "formik";
 import controller from "./controller";
 import LoginRedirect from "../../Routes/LoginRedirect";
 
-const Login = () => {
+const LogIn = () => {
   const { onLogin } = controller();
 
   return (
@@ -61,4 +60,4 @@ const Login = () => {
   );
 };
 
-export default LoginRedirect(Login);
+export default LoginRedirect(LogIn);
